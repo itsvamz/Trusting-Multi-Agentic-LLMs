@@ -1,0 +1,1 @@
+"""MAS red-team harness."""

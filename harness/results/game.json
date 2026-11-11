@@ -1,0 +1,163 @@
+{
+  "security_value": 0.05,
+  "defender_mix": {
+    "defense_in_depth": 1.0
+  },
+  "best_pure_rule": "defense_in_depth",
+  "best_pure_value": 0.05,
+  "randomization_gain": 0.0,
+  "attacker_best_reply": "A1",
+  "attacker_reply_value": 0.05,
+  "fpr_budget": 0.05,
+  "raw_payoff_matrix": {
+    "none": {
+      "A1": 1.0,
+      "A2": 1.0,
+      "A3": 1.0,
+      "A4": 1.0,
+      "A5": 1.0,
+      "A6": 0.0
+    },
+    "tagging_only": {
+      "A1": 0.0,
+      "A2": 0.0,
+      "A3": 1.0,
+      "A4": 1.0,
+      "A5": 1.0,
+      "A6": 0.0
+    },
+    "perms_only": {
+      "A1": 1.0,
+      "A2": 1.0,
+      "A3": 1.0,
+      "A4": 1.0,
+      "A5": 1.0,
+      "A6": 0.0
+    },
+    "provenance_only": {
+      "A1": 1.0,
+      "A2": 1.0,
+      "A3": 1.0,
+      "A4": 0.0,
+      "A5": 1.0,
+      "A6": 0.0
+    },
+    "verify_only": {
+      "A1": 1.0,
+      "A2": 1.0,
+      "A3": 0.0,
+      "A4": 1.0,
+      "A5": 0.0,
+      "A6": 0.0
+    },
+    "defense_in_depth": {
+      "A1": 0.0,
+      "A2": 0.0,
+      "A3": 0.0,
+      "A4": 0.0,
+      "A5": 0.0,
+      "A6": 0.0
+    }
+  },
+  "payoff_matrix": {
+    "none": {
+      "A1": 1.0,
+      "A2": 1.0,
+      "A3": 1.0,
+      "A4": 1.0,
+      "A5": 1.0,
+      "A6": 0.0
+    },
+    "tagging_only": {
+      "A1": 0.0,
+      "A2": 0.0,
+      "A3": 1.0,
+      "A4": 1.0,
+      "A5": 1.0,
+      "A6": 0.0
+    },
+    "perms_only": {
+      "A1": 1.0,
+      "A2": 1.0,
+      "A3": 1.0,
+      "A4": 1.0,
+      "A5": 1.0,
+      "A6": 0.0
+    },
+    "provenance_only": {
+      "A1": 1.0,
+      "A2": 1.0,
+      "A3": 1.0,
+      "A4": 0.0,
+      "A5": 1.0,
+      "A6": 0.0
+    },
+    "verify_only": {
+      "A1": 1.0,
+      "A2": 1.0,
+      "A3": 0.05,
+      "A4": 1.0,
+      "A5": 0.05,
+      "A6": 0.05
+    },
+    "defense_in_depth": {
+      "A1": 0.05,
+      "A2": 0.05,
+      "A3": 0.05,
+      "A4": 0.05,
+      "A5": 0.05,
+      "A6": 0.05
+    }
+  },
+  "false_positive_rates": [
+    {
+      "rule": "none",
+      "false_positive_rate": 0.0,
+      "fpr_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rule": "tagging_only",
+      "false_positive_rate": 0.0,
+      "fpr_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rule": "perms_only",
+      "false_positive_rate": 0.0,
+      "fpr_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rule": "provenance_only",
+      "false_positive_rate": 0.0,
+      "fpr_ci": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "rule": "verify_only",
+      "false_positive_rate": 0.1,
+      "fpr_ci": [
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "rule": "defense_in_depth",
+      "false_positive_rate": 0.1,
+      "fpr_ci": [
+        0.0,
+        0.25
+      ]
+    }
+  ],
+  "mode": "mock"
+}
